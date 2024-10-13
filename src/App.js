@@ -116,13 +116,57 @@ const data = [
     whoIsMealFor: "NAE",
     checkboxes: [
       "200 g wysokobialkowy Piatnica Serek Wiejski (190 kcal, 4 g carbs, 30 g protein, 6 g fat)",
-      "5 g spring onions (2 kcal, 1 g carbs, 0 g protein, 0 g fat)",
-      "30 g bell pepper (9 kcal, 2 g carbs, 1 g protein, 0 g fat)",
+      "3 g spring onions (1 kcal, 1 g carbs, 0 g protein, 0 g fat)",
+      "20 g bell pepper (6 kcal, 1 g carbs, 1 g protein, 0 g fat)",
       "28 g olive oil (233 kcal, 0 g carbs, 0 g protein, 26 g fat)",
       "67 g Iced Latte Gainer (258 kcal, 33 g carbs, 21 g protein, 4 g fat)",
     ],
-    foodVolume: 330,
-    bottom: "(total: 692 kcal, 40 g carbs, 52 g protein, 36 g fat)"
+    foodVolume: 318,
+    bottom: "(total: 688 kcal, 39 g carbs, 52 g protein, 36 g fat)"
+  },
+  {
+    type: 'breakfast',
+    twoWords: "Banana Crepe",
+    title: "Banana crepe",
+    mainImage: "https://www.lecremedelacrumb.com/wp-content/uploads/2020/04/banana-crepe-filling-8sm-4-500x500.jpg",
+    otherImages: [
+      "https://www.lecremedelacrumb.com/wp-content/uploads/2020/04/banana-crepe-filling-7sm-5.jpg",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "35 g plain flour (120 kcal, 27 g carbs, 4 g protein, 1 g fat)",
+      "8 g cornflour (28 kcal, 7 g carbs, 0 g protein, 0 g fat)",
+      "4 g white normal sugar (16 kcal, 4 g carbs, 0 g protein, 0 g fat)",
+      "16 g cubed butter (117 kcal, 0 g carbs, 0 g protein, 13 g fat)",
+      "74 g milk (44 kcal, 3 g carbs, 2 g protein, 2 g fat)",
+      "8 g Belbake caramel (26 kcal, 6 g carbs, 0 g protein, 0 g fat)",
+      "118 g (so 1 whole) banana (105 kcal, 27 g carbs, 1 g protein, 0 g fat)",
+      "58 g Cookies and Cream whey (236 kcal, 4 g carbs, 46 g protein, 4 g fat)",
+    ],
+    foodVolume: 321,
+    bottom: "(total: 692 kcal, 78 g carbs, 53 g protein, 20 g fat)"
+  },
+  {
+    type: 'breakfast',
+    twoWords: "Bishkoff Crepe",
+    title: "Lidl-bishkoff crepe",
+    mainImage: "https://143191222.cdn6.editmysite.com/uploads/1/4/3/1/143191222/s188967706576041633_p206_i1_w888.jpeg",
+    otherImages: [
+      "https://i0.wp.com/walkingthroughlavenderfields.com/wp-content/uploads/2023/05/biscoff-caramelized-banana-vegan-crepes-16.jpeg?fit=1280%2C854&ssl=1",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "35 g plain flour (120 kcal, 27 g carbs, 4 g protein, 1 g fat)",
+      "8 g cornflour (28 kcal, 7 g carbs, 0 g protein, 0 g fat)",
+      "4 g white normal sugar (16 kcal, 4 g carbs, 0 g protein, 0 g fat)",
+      "16 g cubed butter (117 kcal, 0 g carbs, 0 g protein, 13 g fat)",
+      "74 g milk (44 kcal, 3 g carbs, 2 g protein, 2 g fat)",
+      "19 g Mister Choc smooth spread (112 kcal, 12 g carbs, 1 g protein, 8 g fat)",
+      "4 g (so half of 1) Speculoos biscuit (19 kcal, 3 g carbs, 0 g protein, 1 g fat)",
+      "58 g Cookies and Cream whey (236 kcal, 4 g carbs, 46 g protein, 4 g fat)",
+    ],
+    foodVolume: 218,
+    bottom: "(total: 692 kcal, 60 g carbs, 53 g protein, 29 g fat)"
   },
   {
     type: 'other',
@@ -206,7 +250,77 @@ const data = [
     ],
     foodVolume: 375,
     bottom: "(total: 692 kcal, 36 g carbs, 51 g protein, 37 g fat)"
-  }
+  },
+  {
+    type: 'other',
+    twoWords: "Mince Broccoli",
+    title: "Mince beef broccoli with rice",
+    mainImage: "https://www.thecookierookie.com/wp-content/uploads/2021/08/featured-mongolian-beef-broccoli-recipe-500x500.jpg",
+    otherImages: [
+      "https://mommyshomecooking.com/wp-content/uploads/2023/03/Quick-Easy-Beef-and-Broccoli-Stir-Fry-45.jpg",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "150 g (weighed boiled) rice (207 kcal, 47 g carbs, 5 g protein, 0 g fat)",
+      "60 g raw broccoli (21 kcal, 4 g carbs, 2 g protein, 0 g fat)",
+      "3 g sunflower oil (24 kcal, 0 g carbs, 0 g protein, 3 g fat)",
+      "50 g brown onion (20 kcal, 4 g carbs, 1 g protein, 0 g fat)",
+      "78 g Birchwood British Beef Mince 25% Fat (221 kcal, 0 g carbs, 13 g protein, 18 g fat)",
+      "15 g Dark Soy sauce (17 kcal, 4 g carbs, 0 g protein, 0 g fat)",
+      "15 g Batts easy garlic (13 kcal, 2 g carbs, 1 g protein, 0 g fat)",
+      "44 g Cookies and Cream whey (180 kcal, 3 g carbs, 35 g protein, 3 g fat)",
+    ],
+    foodVolume: 415,
+    bottom: "(total: 703 kcal, 64 g carbs, 57 g protein, 24 g fat)"
+  },
+  {
+    type: 'other',
+    twoWords: "Lidl Wings",
+    title: "Lidl frozen spicy wings",
+    mainImage: "https://cdn.metro-group.com/de/de_pim_150250001001_01.png?w=400&h=400&mode=pad",
+    otherImages: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgV9ZIWGx4NUmG5U2xD2Frri867vJEjB-hgw&s",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "307 g spicy wings (includes bones) (582 kcal, 5 g carbs, 52 g protein, 39 g fat)",
+      "13 g sunflower oil (110 kcal, 0 g carbs, 0 g protein, 11 g fat)",
+    ],
+    foodVolume: 320,
+    bottom: "(total: 692 kcal, 5 g carbs, 52 g protein, 50 g fat)"
+  },
+  {
+    type: 'other',
+    twoWords: "Iceland Wings",
+    title: "Iceland frozen BBQ wings",
+    mainImage: "https://goodmaison.com/cdn/shop/articles/BLOG-Air-fryer-cola-wings-SQ.jpg?v=1695021472",
+    otherImages: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdyuz1-zSLHTcCjBM3dYQqMdQivUUY7pajA&s",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "276 g bbq wings (includes bones) (517 kcal, 13 g carbs, 52 g protein, 29 g fat)",
+      "21 g sunflower oil (175 kcal, 0 g carbs, 0 g protein, 17 g fat)",
+    ],
+    foodVolume: 297,
+    bottom: "(total: 692 kcal, 13 g carbs, 52 g protein, 46 g fat)"
+  },
+  {
+    type: 'other',
+    twoWords: "Lidl Pizza",
+    title: "Lidl BBQ base pizza",
+    mainImage: "https://www.licious.in/blog/wp-content/uploads/2020/12/BBQ-Chicken-Pizza.jpg",
+    otherImages: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86Doxdhgu1rDABAFgDEphlQLGwz9Eut4ZJg&s",
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "205 g (so 4 out of 10 slices) bbq pizza (503 kcal, 72 g carbs, 21 g protein, 15 g fat)",
+      "44 g Cookies and Cream whey (182 kcal, 3 g carbs, 35 g protein, 3 g fat)",
+    ],
+    foodVolume: 249,
+    bottom: "(total: 685 kcal, 75 g carbs, 56 g protein, 18 g fat)"
+  },
 ]
 
 const App = () => {
