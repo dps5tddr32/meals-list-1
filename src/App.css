@@ -1,38 +1,142 @@
 .App {
-  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 32px 0;
+  /*color: white*/
+  color: #c0c0c0;
+  margin-bottom: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.breakfast-title {
+  margin-bottom: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.food-items-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.food-item-text {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  max-width: 33.33%;
+  border: 1px solid #fff;
+  min-height: 70px;
+  padding-top: 15px;
+}
+
+.food-item-photo-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  max-width: 33.33%;
+  border: 1px solid #fff;
+}
+
+.food-item-photo {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.modal {
+  background-color: #141414;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  max-height: 100vh;
+}
+
+.modal-content {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 16px;
+  /*color: white;*/
+  overflow: scroll;
+  height: 100vh;
+}
+
+.modal-header {
+  display: Flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.back-button {
+  border-radius: 2px;
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+}
+
+.toggle-button {
+  border-radius: 2px;
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+}
+
+.modal-recipe {
+  margin-bottom: 100vh;
+}
+
+.checkbox-wrapper {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input[type='checkbox'] {
+  /*-webkit-appearance:none;*/
+  width:30px;
+  height: 30px;
+  /*background:white;*/
+  border-radius:5px;
+  border:2px solid #555;
+  margin: 0 10px 0 0;
+  flex: 1;
 }
+
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  padding: 10px;
+}
+
+input[type='checkbox']:checked {
+  /*background: #abd;*/
+}
+
+
+
+.images-wrapper {
+  margin-bottom: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
