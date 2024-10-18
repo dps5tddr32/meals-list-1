@@ -97,13 +97,31 @@ const data = [
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
-      "5 g table sugar (20 kcal, 5 g carbs, 0 g protein, 0 g fat)",
       "80 g simply oats (296 kcal, 45 g carbs, 9 g protein, 7 g fat)",
       "305 g laciate (red) milk (183 kcal, 16 g carbs, 10 g protein, 10 g fat)",
+      "5 g table sugar (20 kcal, 5 g carbs, 0 g protein, 0 g fat)",
       "49 g Cookies and Cream whey (200 kcal, 3 g carbs, 38 g protein, 3 g fat)",
     ],
     foodVolume: 439,
     bottom: "(total: 699 kcal, 69 g carbs, 57 g protein, 20 g fat)"
+  },
+  {
+    type: 'breakfast',
+    twoWords: "Jam Oatmeal",
+    title: "Oatmeal with milk and jam",
+    mainImage: "https://assets.bonappetit.com/photos/6411f8423d692fb2753d5044/1:1/w_3123,h_3123,c_limit/031423-suhoor-pbj-oats-lede.jpg",
+    otherImages: [
+      "https://cookieandkate.com/images/2014/02/toasted-oatmeal-with-strawberry-chia-jam-and-coconut-whipped-cream.jpg"
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "74 g simply oats (273 kcal, 41 g carbs, 8 g protein, 6 g fat)",
+      "281 g laciate (red) milk (169 kcal, 15 g carbs, 9 g protein, 9 g fat)",
+      "30 g Hartleys raspberry seedless (72 kcal, 18 g carbs, 1 g protein, 1 g fat)",
+      "44 g Cookies and Cream whey (179 kcal, 3 g carbs, 34 g protein, 3 g fat) ",
+    ],
+    foodVolume: 429,
+    bottom: "(total: 693 kcal, 77 g carbs, 52 g protein, 19 g fat)"
   },
   {
     type: 'breakfast',
