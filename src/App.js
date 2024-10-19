@@ -92,7 +92,7 @@ const data = [
     type: 'breakfast',
     twoWords: "Jam Toastie 2",
     title: "Jam toastie (version 2)",
-    mainImage: "https://www.allrecipes.com/thmb/-PS1R32u98I2ls0_EJn8ByVL28w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/49943-grilled-peanut-butter-and-jelly-sandwich-2x1-0307-6d5b4b5d02e942609aeae6c88a9e3d93.jpg",
+    mainImage: "https://www.seasonsandsuppers.ca/wp-content/uploads/2023/01/brie-grilled-cheese-1200-1-500x500.jpg",
     otherImages: [
       "https://i.ytimg.com/vi/KSVmZGuK0MY/maxresdefault.jpg"
     ],
