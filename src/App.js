@@ -36,8 +36,8 @@ Up to 500 g of food,
 const data = [
   {
     type: 'breakfast',
-    twoWords: "Toastie 1",
-    title: "Toastie (version 1)",
+    twoWords: "Ham Toastie 1",
+    title: "Ham toastie (version 1)",
     mainImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUx7MgevpWD2qUjzOTSGV585Gt_4qbeNL2fw&s",
     otherImages: [
       "https://images.ctfassets.net/royi30b2qd26/1sJDt7vClOLqibBeB03JgY/2a763c0e9a92fdff3c9b8ad9f6f7b8da/costa-recipes-loadedhamandcheesetoastie-684x400.jpg"
@@ -54,8 +54,8 @@ const data = [
   },
   {
     type: 'breakfast',
-    twoWords: "Toastie 2",
-    title: "Toastie (version 2)",
+    twoWords: "Ham Toastie 2",
+    title: "Ham toastie (version 2)",
     mainImage: "https://assets.bonappetit.com/photos/59f9d40cdb75f001742688c2/1:1/w_2560%2Cc_limit/17_greypoupon_Toasties_1200x628_highrez.jpg",
     otherImages: [
       "https://images.ctfassets.net/uexfe9h31g3m/5eajzk7HQfI587Ed6gDYmm/0f853c9bc3a0969fa4ac6f5b483c584b/Yorkshire_Ham_and_Cheese_Toastie_1024x768.jpg?w=2000&h=1125&fm=webp&fit=thumb&q=100"
@@ -69,6 +69,41 @@ const data = [
     ],
     foodVolume: 352,
     bottom: "(total: 692 kcal, 92 g carbs, 51 g protein, 10 g fat)"
+  },
+  {
+    type: 'breakfast',
+    twoWords: "Jam Toastie 1",
+    title: "Jam toastie (version 1)",
+    mainImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKhppnAjhJOVeD4x8UEomsBVpd_GDz5C6J8A&s",
+    otherImages: [
+      "https://www.allrecipes.com/thmb/-PS1R32u98I2ls0_EJn8ByVL28w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/49943-grilled-peanut-butter-and-jelly-sandwich-2x1-0307-6d5b4b5d02e942609aeae6c88a9e3d93.jpg"
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "100 g (so 2) Rowan Hill Thick White Toastie slices (240 kcal, 46 g carbs, 8 g protein, 2 g fat)",
+      "20 g Hartleys raspberry seedless (48 kcal, 12 g carbs, 1 g protein, 1 g fat)",
+      "76 g Iced Latte Gainer (295 kcal, 38 g carbs, 24 g protein, 4 g fat)",
+      "27 g Cookies and Cream whey (109 kcal, 2 g carbs, 21 g protein, 2 g fat) ",
+    ],
+    foodVolume: 223,
+    bottom: "(total: 692 kcal, 98 g carbs, 54 g protein, 9 g fat)"
+  },
+  {
+    type: 'breakfast',
+    twoWords: "Jam Toastie 2",
+    title: "Jam toastie (version 2)",
+    mainImage: "https://www.allrecipes.com/thmb/-PS1R32u98I2ls0_EJn8ByVL28w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/49943-grilled-peanut-butter-and-jelly-sandwich-2x1-0307-6d5b4b5d02e942609aeae6c88a9e3d93.jpg",
+    otherImages: [
+      "https://i.ytimg.com/vi/KSVmZGuK0MY/maxresdefault.jpg"
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "150 g (so 2 and two halves) Rowan Hill Thick White Toastie slices (360 kcal, 69 g carbs, 12 g protein, 3 g fat)",
+      "40 g Hartleys raspberry seedless (96 kcal, 24 g carbs, 2 g protein, 2 g fat)",
+      "59 g Cookies and Cream whey (236 kcal, 5 g carbs, 45 g protein, 5 g fat) ",
+    ],
+    foodVolume: 249,
+    bottom: "(total: 692 kcal, 98 g carbs, 59 g protein, 10 g fat)"
   },
   {
     type: 'breakfast',
@@ -185,6 +220,21 @@ const data = [
     ],
     foodVolume: 218,
     bottom: "(total: 692 kcal, 60 g carbs, 53 g protein, 29 g fat)"
+  },
+  {
+    type: 'other',
+    twoWords: "Meal Replacement",
+    title: "Fix for when a meal is missed",
+    mainImage: "https://i5.walmartimages.com/seo/BlenderBottle-Shaker-Bottle-with-Pill-Organizer-and-Storage-for-Protein-Powder-ProStak-System-22-Ounce-Rose-Pink_50523ca0-bcbc-4d69-b9dd-7304db6ead0c.97dba3d1fe8d957d43124e25e69853c7.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF",
+    otherImages: [
+      "https://juiceplusmerchandiseuk.com/cdn/shop/files/Untitleddesign-2023-09-15T124731.303.webp?v=1717415640"
+    ],
+    whoIsMealFor: "NAE",
+    checkboxes: [
+      "178 g Iced Latte Gainer (692 kcal, 89 g carbs, 55 g protein, 11 g fat)",
+    ],
+    foodVolume: 178,
+    bottom: "(total: 692 kcal, 89 g carbs, 55 g protein, 11 g fat)"
   },
   {
     type: 'other',
