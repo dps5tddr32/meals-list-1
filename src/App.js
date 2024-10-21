@@ -289,12 +289,12 @@ const data = [
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
-      "128 g (weighted boiled) Baresa Fusilli Durum Pasta (211 kcal, 43 g carbs, 6 g protein, 1 g fat)",
+      "156 g (so 60 g raw) Baresa Fusilli Durum Pasta (211 kcal, 43 g carbs, 6 g protein, 1 g fat)",
       "125 g Orange sauce (126 kcal, 9 g carbs, 3 g protein, 9 g fat)",
       "62 g grated red packet cheese (249 kcal, 0 g carbs, 21 g protein, 18 g fat)",
       "75 g (weighted boiled) chicken breast (106 kcal, 0 g carbs, 24 g protein, 1 g fat)",
     ],
-    foodVolume: 390,
+    foodVolume: 418,
     bottom: "(total: 692 kcal, 52 g carbs, 54 g protein, 29 g fat)"
   },
   {
@@ -307,7 +307,7 @@ const data = [
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
-      "73 g (weighted boiled) Linguine pasta (98 k.cal, 20 g carbs, 4 g protein, 0 g fat)",
+      "73 g (so 28 g raw) Linguine pasta (98 kcal, 20 g carbs, 4 g protein, 0 g fat)",
       "10 g sunflower oil (82 kcal, 0 g carbs, 0 g protein, 8 g fat)",
       "50 g brown onion (20 kcal, 4 g carbs, 1 g protein, 0 g fat)",
       "15 g Batts easy garlic (13 kcal, 2 g carbs, 1 g protein, 0 g fat)",
@@ -329,7 +329,7 @@ const data = [
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
-      "150 g (weighed boiled) rice (207 kcal, 47 g carbs, 5 g protein, 0 g fat)",
+      "150 g (so 55 g raw) rice (207 kcal, 47 g carbs, 5 g protein, 0 g fat)",
       "60 g raw broccoli (21 kcal, 4 g carbs, 2 g protein, 0 g fat)",
       "3 g sunflower oil (24 kcal, 0 g carbs, 0 g protein, 3 g fat)",
       "50 g brown onion (20 kcal, 4 g carbs, 1 g protein, 0 g fat)",
