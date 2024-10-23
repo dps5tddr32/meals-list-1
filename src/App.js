@@ -50,7 +50,7 @@ const data = [
       "170 g (so 10) roasted turkey slices (180 kcal, 0 g carbs, 40 g protein, 0 g fat)"
     ],
     foodVolume: 339,
-    bottom: "(total: 692 kcal, 46 g carbs, 54 g protein, 29 g fat)"
+    bottom: "692 kcal, 46 g carbs, 54 g protein, and 29 g fat."
   },
   {
     type: 'breakfast',
@@ -68,7 +68,7 @@ const data = [
       "136 g (so 8) roasted turkey slices (144 kcal, 0 g carbs, 32 g protein, 0 g fat)"
     ],
     foodVolume: 352,
-    bottom: "(total: 692 kcal, 92 g carbs, 51 g protein, 10 g fat)"
+    bottom: "692 kcal, 92 g carbs, 51 g protein, and 10 g fat."
   },
   {
     type: 'breakfast',
@@ -86,7 +86,7 @@ const data = [
       "27 g Cookies and Cream whey (109 kcal, 2 g carbs, 21 g protein, 2 g fat) ",
     ],
     foodVolume: 223,
-    bottom: "(total: 692 kcal, 98 g carbs, 54 g protein, 9 g fat)"
+    bottom: "692 kcal, 98 g carbs, 54 g protein, and 9 g fat."
   },
   {
     type: 'breakfast',
@@ -103,7 +103,7 @@ const data = [
       "59 g Cookies and Cream whey (236 kcal, 5 g carbs, 45 g protein, 5 g fat) ",
     ],
     foodVolume: 249,
-    bottom: "(total: 692 kcal, 98 g carbs, 59 g protein, 10 g fat)"
+    bottom: "692 kcal, 98 g carbs, 59 g protein, and 10 g fat."
   },
   {
     type: 'breakfast',
@@ -120,7 +120,7 @@ const data = [
       "49 g Cookies and Cream whey (202 kcal, 3 g carbs, 39 g protein, 3 g fat)",
     ],
     foodVolume: 304,
-    bottom: "(total: 692 kcal, 96 g carbs, 52 g protein, 10 g fat)"
+    bottom: "692 kcal, 96 g carbs, 52 g protein, and 10 g fat."
   },
   {
     type: 'breakfast',
@@ -138,7 +138,7 @@ const data = [
       "49 g Cookies and Cream whey (200 kcal, 3 g carbs, 38 g protein, 3 g fat)",
     ],
     foodVolume: 439,
-    bottom: "(total: 699 kcal, 69 g carbs, 57 g protein, 20 g fat)"
+    bottom: "699 kcal, 69 g carbs, 57 g protein, and 20 g fat."
   },
   {
     type: 'breakfast',
@@ -156,26 +156,26 @@ const data = [
       "44 g Cookies and Cream whey (179 kcal, 3 g carbs, 34 g protein, 3 g fat) ",
     ],
     foodVolume: 429,
-    bottom: "(total: 693 kcal, 77 g carbs, 52 g protein, 19 g fat)"
+    bottom: "693 kcal, 77 g carbs, 52 g protein, and 19 g fat."
   },
   {
     type: 'breakfast',
     twoWords: "Cottage Cheese",
-    title: "Wysokobialkowy cottage cheese meal",
+    title: "\"Wysokobialkowy\" cottage cheese meal",
     mainImage: "https://mwrzosek-prod-wp-static.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/08/06160957/15.png",
     otherImages: [
       "https://sniadaniowi.pl/wp-content/uploads/2024/06/Serek-wiejski-na-sniadanie-1.jpg"
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
-      "200 g wysokobialkowy Piatnica Serek Wiejski (190 kcal, 4 g carbs, 30 g protein, 6 g fat)",
+      "200 g \"Wysokobialkowy\" cottage cheese (190 kcal, 4 g carbs, 30 g protein, 6 g fat)",
       "3 g spring onions (1 kcal, 1 g carbs, 0 g protein, 0 g fat)",
       "20 g bell pepper (6 kcal, 1 g carbs, 1 g protein, 0 g fat)",
       "28 g olive oil (233 kcal, 0 g carbs, 0 g protein, 26 g fat)",
       "67 g Iced Latte Gainer (258 kcal, 33 g carbs, 21 g protein, 4 g fat)",
     ],
     foodVolume: 318,
-    bottom: "(total: 688 kcal, 39 g carbs, 52 g protein, 36 g fat)"
+    bottom: "688 kcal, 39 g carbs, 52 g protein, and 36 g fat."
   },
   {
     type: 'breakfast',
@@ -197,7 +197,7 @@ const data = [
       "58 g Cookies and Cream whey (236 kcal, 4 g carbs, 46 g protein, 4 g fat)",
     ],
     foodVolume: 321,
-    bottom: "(total: 692 kcal, 78 g carbs, 53 g protein, 20 g fat)"
+    bottom: "692 kcal, 78 g carbs, 53 g protein, and 20 g fat."
   },
   {
     type: 'breakfast',
@@ -219,7 +219,7 @@ const data = [
       "58 g Cookies and Cream whey (236 kcal, 4 g carbs, 46 g protein, 4 g fat)",
     ],
     foodVolume: 218,
-    bottom: "(total: 692 kcal, 60 g carbs, 53 g protein, 29 g fat)"
+    bottom: "692 kcal, 60 g carbs, 53 g protein, and 29 g fat."
   },
   {
     type: 'other',
@@ -234,7 +234,7 @@ const data = [
       "178 g Iced Latte Gainer (692 kcal, 89 g carbs, 55 g protein, 11 g fat)",
     ],
     foodVolume: 178,
-    bottom: "(total: 692 kcal, 89 g carbs, 55 g protein, 11 g fat)"
+    bottom: "692 kcal, 89 g carbs, 55 g protein, and 11 g fat."
   },
   {
     type: 'other',
@@ -252,7 +252,7 @@ const data = [
       "28 g Cookies and Cream whey (112 kcal, 2 g carbs, 22 g protein, 2 g fat)",
     ],
     foodVolume: 493,
-    bottom: "(total: 707 kcal, 67 g carbs, 52 g protein, 23 g fat)"
+    bottom: "707 kcal, 67 g carbs, 52 g protein, and 23 g fat."
   },
   {
     type: 'other',
@@ -277,7 +277,7 @@ const data = [
       "23 g Cookies and Cream whey (93 kcal, 2 g carbs, 18 g protein, 2 g fat)",
     ],
     foodVolume: 507,
-    bottom: "(total: 692 kcal, 66 g carbs, 53 g protein, 25 g fat)"
+    bottom: "692 kcal, 66 g carbs, 53 g protein, and 25 g fat."
   },
   {
     type: 'other',
@@ -295,7 +295,7 @@ const data = [
       "75 g (weighted boiled) chicken breast (106 kcal, 0 g carbs, 24 g protein, 1 g fat)",
     ],
     foodVolume: 418,
-    bottom: "(total: 692 kcal, 52 g carbs, 54 g protein, 29 g fat)"
+    bottom: "692 kcal, 52 g carbs, 54 g protein, and 29 g fat."
   },
   {
     type: 'other',
@@ -317,7 +317,7 @@ const data = [
       "27 g Cookies and Cream whey (110 kcal, 2 g carbs, 21 g protein, 2 g fat)",
     ],
     foodVolume: 375,
-    bottom: "(total: 692 kcal, 36 g carbs, 51 g protein, 37 g fat)"
+    bottom: "692 kcal, 36 g carbs, 51 g protein, and 37 g fat."
   },
   {
     type: 'other',
@@ -339,7 +339,7 @@ const data = [
       "44 g Cookies and Cream whey (180 kcal, 3 g carbs, 35 g protein, 3 g fat)",
     ],
     foodVolume: 415,
-    bottom: "(total: 703 kcal, 64 g carbs, 57 g protein, 24 g fat)"
+    bottom: "703 kcal, 64 g carbs, 57 g protein, and 24 g fat."
   },
   {
     type: 'other',
@@ -355,7 +355,7 @@ const data = [
       "13 g sunflower oil (110 kcal, 0 g carbs, 0 g protein, 11 g fat)",
     ],
     foodVolume: 320,
-    bottom: "(total: 692 kcal, 5 g carbs, 52 g protein, 50 g fat)"
+    bottom: "692 kcal, 5 g carbs, 52 g protein, and 50 g fat."
   },
   {
     type: 'other',
@@ -371,7 +371,7 @@ const data = [
       "21 g sunflower oil (175 kcal, 0 g carbs, 0 g protein, 17 g fat)",
     ],
     foodVolume: 297,
-    bottom: "(total: 692 kcal, 13 g carbs, 52 g protein, 46 g fat)"
+    bottom: "692 kcal, 13 g carbs, 52 g protein, and 46 g fat."
   },
   {
     type: 'other',
@@ -387,7 +387,7 @@ const data = [
       "44 g Cookies and Cream whey (182 kcal, 3 g carbs, 35 g protein, 3 g fat)",
     ],
     foodVolume: 249,
-    bottom: "(total: 685 kcal, 75 g carbs, 56 g protein, 18 g fat)"
+    bottom: "685 kcal, 75 g carbs, 56 g protein, and 18 g fat."
   },
 ]
 
@@ -488,9 +488,10 @@ const App = () => {
                 <h3>{currentRecipeData.title}</h3>
                 {currentRecipeData.whoIsMealFor === "NAE" && (
                   <>
-                    <div>MEAL FOR NAE, SO:</div>
-                    <div>Up to 500 g of food,</div>
+                    <div>Note - Every meal for Nae should have:</div>
+                    <div>Up to 500 g of food in total,</div>
                     <div>692 kcal, 83 g carbs, 52 g protein, and 17 g fat.</div>
+                    <div>The calories (kcal) and protein should be correct, but carbs and fat can change to preference.</div>
                   </>
                 )}
                 <br />
@@ -506,9 +507,11 @@ const App = () => {
                 ))}
                 <br />
                 <div>
-                  {`${currentRecipeData.foodVolume} g food volume in total.`}
+                  Details for this meal:
                 </div>
-                <br />
+                <div>
+                  {`${currentRecipeData.foodVolume} g of food in total,`}
+                </div>
                 <div>
                   {currentRecipeData.bottom}
                 </div>
