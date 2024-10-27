@@ -1,5 +1,8 @@
 import { useState } from "react";
 import './App.css';
+import cottageCheese1image from './20241027_094950.jpg';
+import cottageCheese2image from './20241027_095005.jpg';
+import cottageCheese3image from './20241027_095052.jpg';
 
 // {
 //   twoWords: "",
@@ -162,9 +165,10 @@ const data = [
     type: 'breakfast',
     twoWords: "Cottage Cheese",
     title: "\"Wysokobialkowy\" cottage cheese meal",
-    mainImage: "https://mwrzosek-prod-wp-static.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/08/06160957/15.png",
+    mainImage: cottageCheese1image,
     otherImages: [
-      "https://sniadaniowi.pl/wp-content/uploads/2024/06/Serek-wiejski-na-sniadanie-1.jpg"
+      cottageCheese2image,
+      cottageCheese3image
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
