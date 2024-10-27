@@ -3,6 +3,8 @@ import './App.css';
 import cottageCheese1image from './20241027_094950.jpg';
 import cottageCheese2image from './20241027_095005.jpg';
 import cottageCheese3image from './20241027_095052.jpg';
+import orangePasta1image from './20241027_173614.jpg';
+import orangePasta2image from './20241027_171151.jpg';
 
 // {
 //   twoWords: "",
@@ -287,9 +289,9 @@ const data = [
     type: 'other',
     twoWords: "Orange Pasta",
     title: "Orange sauce non-dark pasta with grated red packet cheese and boiled/seasoned chicken breasts",
-    mainImage: "https://www.hungryyvegann.co.uk/wp-content/uploads/2022/01/spicy-coconut-and-tomato-pasta.jpg",
+    mainImage: orangePasta1image,
     otherImages: [
-      "https://www.the-pasta-project.com/wp-content/uploads/Pasta-with-tomato-sauce-allo-scarpariello-from-Naples-3.jpg"
+      orangePasta2image
     ],
     whoIsMealFor: "NAE",
     checkboxes: [
